@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personalization>
+<q cat="categoryA" id="1">
+<item><id>001</id><class>class Class1 implements JsonSerializable</class></item>
+<item><id>002</id><class>class Class2 implements JsonSerializable</class></item>
+</q>
+<q cat="categoryB" id="2">
+<item><id>001</id><att>private double x;</att></item>
+<item><id>002</id><att>private double y;</att></item>
+<item><id>003</id><att>private double z;</att></item>
+</q>
+</personalization>
+
