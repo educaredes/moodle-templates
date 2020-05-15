@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personalization>
+<q cat="multichoice-catA" id="1">
+<item><id>001</id><operation>6%3</operation><sol>0</sol><wrong1>1</wrong1><wrong2>2</wrong2>></item>
+<item><id>002</id><operation>7%3</operation><sol>1</sol><wrong1>0</wrong1><wrong2>2</wrong2>></item>
+</q>
+<q cat="multichoice-catB" id="2">
+<item><id>001</id><char>char c=new String("abc").charAt(0);</char><sol>'a'</sol><wrong1>'b'</wrong1><wrong2>'c'</wrong2>></item>
+<item><id>002</id><char>char c=new String("abc").charAt(1);</char><sol>'b'</sol><wrong1>'a'</wrong1><wrong2>'c'</wrong2>></item>
+<item><id>003</id><char>char c=new String("abc").charAt(2);</char><sol>'c'</sol><wrong1>'a'</wrong1><wrong2>'b'</wrong2>></item>
+</q>
+</personalization>
+
