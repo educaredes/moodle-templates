@@ -16,9 +16,9 @@ The examples are tested with the XSLT processor library saxon9he.jar, requiring 
 ```shell
 ./make.sh
 ```
-It will create two files in the "output" directory. Each file is a question bank in a category. 
+It will create two files for each question type template in the "output" directory. Each file is a question bank in a category. 
 
 4. Import the files as new question banks, selecting "Moodle xml format". 
 
-5. Check the questions created in CategoryA and CategoryB
+5. Check the questions created in *-CatA and *-CatB
 
