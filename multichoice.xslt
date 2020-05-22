@@ -122,6 +122,12 @@
         <text></text>
       </feedback>
     </answer>
+    <answer fraction="0" format="html">
+      <text>No contestar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
     </question>
 
   </xsl:template>
