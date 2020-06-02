@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <personalization>
 <q cat="essay-catA" id="1">
-<item><id>001</id><class>class Class1 implements JsonSerializable</class></item>
-<item><id>002</id><class>class Class2 implements JsonSerializable</class></item>
+<item><id>001</id>
+  <class>class Class1 implements JsonSerializable</class>
+  <att1>String a</att1>
+  <att2>int b</att2>
+</item>
+<item><id>002</id>
+  <class>class Class2 implements JsonSerializable</class>
+  <att1>double a</att1>
+  <att2>char b</att2>
+</item>
 </q>
 <q cat="essay-catB" id="2">
 <item><id>001</id><att>private double x;</att></item>

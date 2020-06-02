@@ -76,7 +76,7 @@
           <xsl:if 
             test="../@id='1'">Implement a method in class: &lt;br&gt;&lt;br&gt;
             <xsl:value-of select="class" />, &lt;br&gt;&lt;br&gt;
-            to create a JSON representation of the class.
+            to create a JSON representation of the class. The class has attributes <xsl:value-of select="att1" /> and <xsl:value-of select="att2" />.
           </xsl:if>
 
           <xsl:if 
